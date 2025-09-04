@@ -3,3 +3,11 @@ body{font-family:Arial,Helvetica,sans-serif;background:#f4f6fb;color:#111;paddin
 textarea{width:100%;padding:10px;border-radius:6px;border:1px solid #ddd;margin-bottom:10px}
 button{padding:10px 14px;border-radius:6px;border:none;background:#2b6cb0;color:white;margin-right:6px;cursor:pointer}
 .result-area{margin-top:12px;padding:12px;border-radius:6px;background:#f7fafc;border:1px solid #e2e8f0;white-space:pre-wrap;font-family:monospace}
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  color: #555;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+}
