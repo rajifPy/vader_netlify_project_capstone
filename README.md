@@ -8,7 +8,7 @@ This project includes a static frontend (in `public/`) and two Netlify Functions
 
 ---
 ## LINK DEMO
-- `/.https://sentimenanalisis.netlify.app/.`
+- https://sentimenanalisis.netlify.app/
 ---
 ## Local testing with Netlify CLI (recommended)
 1. Install Netlify CLI globally (if not installed):
