@@ -1,0 +1,5 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f6fb;color:#111;padding:20px}
+.container{max-width:800px;margin:0 auto;background:#fff;border-radius:8px;padding:20px;box-shadow:0 6px 24px rgba(0,0,0,0.08)}
+textarea{width:100%;padding:10px;border-radius:6px;border:1px solid #ddd;margin-bottom:10px}
+button{padding:10px 14px;border-radius:6px;border:none;background:#2b6cb0;color:white;margin-right:6px;cursor:pointer}
+.result-area{margin-top:12px;padding:12px;border-radius:6px;background:#f7fafc;border:1px solid #e2e8f0;white-space:pre-wrap;font-family:monospace}

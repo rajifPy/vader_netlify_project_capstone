@@ -1,0 +1,16 @@
+{
+  "name": "vader-sentiment-netlify",
+  "version": "1.0.0",
+  "description": "Netlify project: frontend + Netlify Functions using vader-sentiment (leave-one-out explainability)",
+  "main": "netlify/functions/sentiment.js",
+  "scripts": {
+    "start": "netlify dev",
+    "build": "echo \"No build step\""
+  },
+  "dependencies": {
+    "vader-sentiment": "1.1.3"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

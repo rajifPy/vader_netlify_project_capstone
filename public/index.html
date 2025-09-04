@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>VADER Sentiment (Netlify Functions)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>VADER Sentiment — Netlify Demo</h1>
+    <p>Server-side using Netlify Functions + VADER. Note: VADER is English-first.</p>
+
+    <textarea id="inputText" rows="4" placeholder="Masukkan teks untuk analisis...">adanya film critical eleven ini jadi merusak image Ale Anya di kepalaku :(</textarea>
+    <div>
+      <button id="analyzeBtn">Analisis Sentiment</button>
+      <button id="explainBtn">Explain (leave-one-out)</button>
+    </div>
+
+    <div id="result" class="result-area"></div>
+    <div id="explain" class="result-area"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
