@@ -7,20 +7,8 @@ This project includes a static frontend (in `public/`) and two Netlify Functions
 **Important:** VADER is primarily designed for English. For Bahasa Indonesia, accuracy may be limited. Consider translating text to English server-side or use an Indonesian model for production.
 
 ---
-## Structure
-```
-/public
-  - index.html
-  - styles.css
-  - app.js
-/netlify/functions
-  - sentiment.js
-  - explain.js
-package.json
-netlify.toml
-README.md
-```
-
+## LINK DEMO
+- `/.https://sentimenanalisis.netlify.app/.`
 ---
 ## Local testing with Netlify CLI (recommended)
 1. Install Netlify CLI globally (if not installed):
