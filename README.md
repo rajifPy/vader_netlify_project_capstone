@@ -24,7 +24,3 @@
 ---
 
 ---
-## Notes & Tips
-- Netlify Functions will install `vader-sentiment` during build. Ensure Node version compatibility (Node >=16 recommended).
-- Keep `maxTokens` small (e.g. 6-12) to limit the number of sentiment computations and avoid long execution time / cold-starts.
-- If you need higher accuracy for Bahasa Indonesia, consider replacing function logic with an Indonesian model inference (Hugging Face) or translating text to English before scoring.
