@@ -1,10 +1,5 @@
 # VADER Sentiment Netlify Project (Frontend + Netlify Functions)
 
-This project includes a static frontend (in `public/`) and two Netlify Functions (serverless):
-- `/.netlify/functions/sentiment`  -> returns VADER sentiment scores for a given text
-- `/.netlify/functions/explain`    -> performs leave-one-out explainability (limited tokens)
-
-**Important:** VADER is primarily designed for English. For Bahasa Indonesia, accuracy may be limited. Consider translating text to English server-side or use an Indonesian model for production.
 
 ---
 ## LINK DEMO
@@ -27,21 +22,6 @@ This project includes a static frontend (in `public/`) and two Netlify Functions
    - Functions are available under `/.netlify/functions/*`
 
 ---
-## Deploy to Netlify (via Git)
-1. Create a new Git repository and push the project.  
-2. Go to https://app.netlify.com → "New site from Git". Connect your repo.  
-3. Build settings: leave default. Netlify will read `netlify.toml` to set `functions` and `publish` folders.  
-4. Deploy. After deployment, the frontend will be live and functions accessible at `/.netlify/functions/sentiment` etc.
-
----
-## API Usage (Frontend already wired)
-### POST /.netlify/functions/sentiment
-Request body (JSON): `{ "text": "your text here" }`  
-Response: `{ text, scores }` where `scores` contains `neg`, `neu`, `pos`, `compound`
-
-### POST /.netlify/functions/explain
-Request body (JSON): `{ "text": "your text here", "maxTokens": 8 }`  
-Response: `{ text, baseline, baselineCompound, contributions: [ { word, raw, tokenCompound, delta, modifiedText }, ... ] }`
 
 ---
 ## Notes & Tips
